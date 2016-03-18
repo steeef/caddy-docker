@@ -1,5 +1,5 @@
 FROM alpine:3.2
-MAINTAINER Abiola Ibrahim <abiola89@gmail.com>
+MAINTAINER Stephen Price <steeef@gmail.com>
 
 LABEL caddy_version="0.8.2" architecture="amd64"
 
