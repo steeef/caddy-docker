@@ -20,7 +20,7 @@ RUN apk add --update wget ca-certificates && \
   rm -r hugo_${HUGO_VERSION}_linux_amd64.tar.gz && \
   mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \
   rm -r hugo_${HUGO_VERSION}_linux_amd64 && \
-  apk del wget ca-certificates && \
+  apk del wget tar && \
   rm /var/cache/apk/*
 
 EXPOSE 80 443 2015
